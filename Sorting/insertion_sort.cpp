@@ -1,5 +1,5 @@
-#include "common_hearders.hpp"
-#include "utils.hpp"
+#include "../common_headers.hpp"
+#include "../utils.hpp"
 
 void insertion_sort(vector<int>& A){
     int pos, j;

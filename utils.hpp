@@ -1,4 +1,4 @@
-#include "common_hearders.hpp"
+#include "common_headers.hpp"
 
 //Function to return a vector with random integers
 vector<int> rand_vector(int size, int max_val){

@@ -1,5 +1,5 @@
-#include "common_hearders.hpp"
-#include "utils.hpp"
+#include "../common_headers.hpp"
+#include "../utils.hpp"
 
 void selection_sort(vector<int>& A){
 

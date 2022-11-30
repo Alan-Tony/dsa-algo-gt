@@ -1,5 +1,5 @@
-#include "common_hearders.hpp"
-#include "utils.hpp"
+#include "../common_headers.hpp"
+#include "../utils.hpp"
 
 /*
 Future scope:
@@ -8,7 +8,7 @@ Future scope:
 */
 
 /*
-There are 2 common implementations of this:
+There are 2 ../common implementations of this:
 1. With pivot as the left most element (more straightforward to me)
 2. With pivot as the right most element (a little fancy implementation in Princeton course)
 */
