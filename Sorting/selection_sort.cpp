@@ -23,7 +23,7 @@ void selection_sort(vector<int>& A){
 
 int main(){
 
-    vector<int> A= rand_vector(10, 20);
+    vector<int> A= rand_vector(100, 20);
 
     cout<<"\nOriginal vector: \n";
     for(auto num: A){
@@ -35,6 +35,13 @@ int main(){
     cout<<"\nVector after sorting: \n";
     for(auto num: A){
         cout<<num<<" ";
+    }
+
+    if(vector_sorted(A)){
+        cout<<"\nCheck sorted: success";
+    }
+    else{
+        cout<<"\nCheck sorted: failure";
     }
 
     cout<<"\n";
