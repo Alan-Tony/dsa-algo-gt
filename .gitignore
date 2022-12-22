@@ -1,7 +1,11 @@
+#To ignore executables
 *
 !/**/
 !*.*
 
 .vscode/
-
 trial.cpp
+
+#Output files of convex hull program
+points.txt
+hull.txt

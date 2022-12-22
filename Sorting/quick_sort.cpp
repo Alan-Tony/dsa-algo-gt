@@ -42,7 +42,9 @@ void quick_sort(vector<int>& A, int lo, int hi){
 }
 
 int main(){
-    vector<int> A= rand_vector(100, 20);
+
+    auto t= time(0);
+    vector<int> A= rand_vector(100, 20, t);
 
     cout<<"\nOriginal vector: \n";
     for(auto num: A){

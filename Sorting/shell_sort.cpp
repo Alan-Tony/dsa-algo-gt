@@ -56,7 +56,8 @@ void shell_sort(vector<int>& A){
 
 int main(){
 
-    vector<int> A= rand_vector(1000, 100);
+    auto t= time(0);
+    vector<int> A= rand_vector(1000, 100, t);
 
     cout<<"\nOriginal vector: \n";
     for(auto num: A){

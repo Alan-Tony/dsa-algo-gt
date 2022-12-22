@@ -23,7 +23,8 @@ void selection_sort(vector<int>& A){
 
 int main(){
 
-    vector<int> A= rand_vector(100, 20);
+    auto t= time(0);
+    vector<int> A= rand_vector(100, 20, t);
 
     cout<<"\nOriginal vector: \n";
     for(auto num: A){

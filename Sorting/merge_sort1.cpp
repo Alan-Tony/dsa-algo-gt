@@ -50,7 +50,8 @@ vector<int> merge_sort(vector<int> A, int lo, int hi){
 
 int main(){
 
-    vector<int> A= rand_vector(1000, 1000);
+    auto t= time(0);
+    vector<int> A= rand_vector(1000, 1000, t);
 
     cout<<"\nOriginal vector: \n";
     for(auto num: A){
